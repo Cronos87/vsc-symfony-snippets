@@ -1,0 +1,28 @@
+{
+    "name": "symfony-snippets",
+    "displayName": "Symfony Snippets",
+    "description": "A simple package that's provides useful snippets for the latest versions of Symfony",
+    "version": "0.1.0",
+    "publisher": "Cronos87",
+    "homepage": "https://github.com/Cronos87/vsc-symfony-snippets",
+    "bugs": {
+        "url": "https://github.com/Cronos87/vsc-symfony-snippets/issues"
+    },
+    "engines": {
+        "vscode": "^1.10.0"
+    },
+    "categories": ["Snippets"],
+    "keywords": ["symfony"],
+    "repository":{
+        "type" : "git",
+        "url" : "https://github.com/Cronos87/vsc-symfony-snippets"
+    },
+    "contributes": {
+        "snippets": [
+            {
+                "language": "php",
+                "path": "./snippets/controller.json"
+            }
+        ]
+    }
+}

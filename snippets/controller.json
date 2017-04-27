@@ -1,0 +1,74 @@
+{
+	"Create a new action": {
+		"prefix": "sfaction",
+		"body": [
+			"public function ${1:name}Action(${2:Request \\$request})",
+			"{",
+			"    ${3:return \\$this->render('${4:index}.html.twig');}",
+			"}"
+		]
+	},
+	"Get a container": {
+		"prefix": "sfcontainer",
+		"body": "\\$this->get('${1:container}')"
+	},
+	"Controller Template": {
+		"prefix": "sfcontroller",
+		"body": [
+			"namespace AppBundle\\\\Controller;\n",
+			"use Symfony\\\\Bundle\\\\FrameworkBundle\\\\Controller\\\\Controller;\n",
+			"class ${1:Name}Controller extends Controller",
+			"{",
+			"    ${2}",
+			"}"
+		]
+	},
+	"Create the Entity Manager variable": {
+		"prefix": "sfem",
+		"body": "\\$em = \\$this->getDoctrine()->getManager();"
+	},
+	"Throw an Access Denied Exception": {
+		"prefix": "sfexceptionaccessdenied",
+		"body": "throw \\$this->createAccessDeniedException(${1:'${2:message}'});"
+	},
+	"Throw a Not Found Exception": {
+		"prefix": "sfexceptionnotfound",
+		"body": "throw \\$this->createNotFoundException(${1:'${2:message}'});"
+	},
+	"Forward to an another controller/action": {
+		"prefix": "sfforward",
+		"body": "\\$this->forward('${1:Controller}'${2:, [${3}]});"
+	},
+	"Return a json response - Symfony 3.1+": {
+		"prefix": "sfjson",
+		"body": "\\$this->json(${1:[${2}]});"
+	},
+	"Get a parameter value from the parameter file - Symfony 2.7+": {
+		"prefix": "sfparameter",
+		"body": "\\$this->getParameter('${1:parameter}');"
+	},
+	"Return a redirect response using a route name - Symfony 2.6+": {
+		"prefix": "sfredirectroute",
+		"body": "\\$this->redirectToRoute('${1:route}'${2:, [${3}]});"
+	},
+	"Return a redirect response": {
+		"prefix": "sfredirect",
+		"body": "\\$this->redirect('${1:url}');"
+	},
+	"Return a view": {
+		"prefix": "sfrender",
+		"body": "\\$this->render('${1:name}.html.twig'${2:, [${3}]});"
+	},
+	"Retrieve a repository": {
+		"prefix": "sfrepository",
+		"body": "\\$${2:Entitiy}Repository = \\$em->getRepository('${1:AppBundle}:${2:Entity}');"
+	},
+	"Get the session object": {
+		"prefix": "sfsession",
+		"body": "\\$session = \\$request->getSession();"
+	},
+	"Dump a variable using the Symfony's one": {
+		"prefix": "sfdump",
+		"body": "dump($1);"
+	}
+}
