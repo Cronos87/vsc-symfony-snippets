@@ -2,7 +2,7 @@
     "name": "symfony-snippets",
     "displayName": "Symfony Snippets",
     "description": "A simple package that's provides useful snippets for the latest versions of Symfony",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publisher": "Cronos87",
     "homepage": "https://github.com/Cronos87/vsc-symfony-snippets",
     "bugs": {
