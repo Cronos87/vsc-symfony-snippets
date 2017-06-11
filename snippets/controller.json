@@ -23,7 +23,7 @@
 			"}"
 		]
 	},
-	"Create the Entity Manager variable": {
+	"Create the Entity Manager Variable": {
 		"prefix": "sfem",
 		"body": "\\$em = \\$this->getDoctrine()->getManager();"
 	},
