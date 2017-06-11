@@ -4,7 +4,7 @@
 
 A simple package that's provides useful snippets for the latest versions of Symfony.
 
-Feel free to send me suggestions :)
+**Feel free to send me suggestions :)**
 
 ## List
 
