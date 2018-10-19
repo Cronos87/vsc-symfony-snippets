@@ -12,7 +12,7 @@ A simple package that's provides useful snippets for the latest versions of Symf
 | ----- | ------- | ------- |
 | Create a new action function | sfaction |
 | Get a container | sfcontainer |
-| Controller Template | sfcontroller |
+| Controller Template | sfcontroller | 4.1+ |
 | Create the Entity Manager Variable | sfem |
 | Throw an Access Denied Exception | sfexceptionaccessdenied |
 | Throw a Not Found Exception | sfexceptionnotfound |
