@@ -16,7 +16,7 @@
 		"prefix": "sfcontroller",
 		"body": [
 			"namespace App\\\\Controller;\n",
-			"use Symfony\\\\Bundle\\\\FrameworkBundle\\\\Controller\\\\Controller;\n",
+			"use Symfony\\\\Bundle\\\\FrameworkBundle\\\\Controller\\\\AbstractController;\n",
 			"class ${1:Name}Controller extends AbstractController",
 			"{",
 			"    ${2}",
